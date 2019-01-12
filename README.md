@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Jekyll+Github搭建个人博客"
+date:   2019-01-11 15:03:25
+categories: original
+---
 # ES部署及插件（5.5.1版本）
 ## 1. 安装依赖
 ### JDK
@@ -17,11 +23,17 @@ CentOS下使用yum命令安装： `yum install -y nodejs`
    ```yml
    ###Cluster###
    cluster.name: elasticsearch_iciyun
-   ###Node###   node.name: node_2   ###Path###
-   ####索引数据存储目录####   path.data: /home/user_es/data   ####日志文件目录####
+   ###Node###
+   node.name: node_2
+   ###Path###
+   ####索引数据存储目录####
+   path.data: /home/user_es/data
+   ####日志文件目录####
    path.logs: /home/user_es/logs
-   ###NetWork###   network.host: 192.168.0.19
-   ####允许跨域访问--主要为elasticsearch-head使用####   http.cors.enabled: true
+   ###NetWork###
+   network.host: 192.168.0.19
+   ####允许跨域访问--主要为elasticsearch-head使用####
+   http.cors.enabled: true
    http.cors.allow-origin: "*"
    ###Discovery###
    discovery.zen.ping.unicast.hosts: ["192.168.0.87","192.168.0.43"]
