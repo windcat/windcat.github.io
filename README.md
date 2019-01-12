@@ -1,9 +1,3 @@
----
-layout: post
-title:  "Jekyll+Github搭建个人博客"
-date:   2019-01-11 15:03:25
-categories: original
----
 # ES部署及插件（5.5.1版本）
 ## 1. 安装依赖
 ### JDK
