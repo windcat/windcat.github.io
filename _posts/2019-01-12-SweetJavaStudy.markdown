@@ -6,6 +6,7 @@ categories: java
 ---
 
 {% highlight java %}
+
 import java.util.Arrays;
 
 /**
@@ -141,4 +142,5 @@ public class SweetJavaStudy {
 
     }
 }
+
 {% endhighlight %}
